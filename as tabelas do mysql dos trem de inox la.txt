@@ -1,0 +1,17 @@
+ create table cadastroclientes(
+idclientes int not null primary key auto_increment,
+clinum varchar(50) not null,
+nomecli varchar(80) not null,
+datanasccli date not null,
+cidadecli varchar(50) not null,
+estadocli varchar(30) not null,
+ruacli varchar(80) not null,
+numcasacli varchar(10) not null,
+tel1cli int(9) not null,
+tel2cli int(9) not null,
+cpfcli char(11) not null,
+cnpjcli char(14) not null);
+
+
+insert into cadastroclientes(clinum, nomecli, datanasccli, cidadecli, estadocli, ruacli, numcasacli, tel1cli, tel2cli, cpfcli, cnpjcli) values
+(01234567891, 12, "jubileu dos santos golgi", 12/04/2001, "julio mesquita", "parana", "r.o corcunda 123", 325, 963268521, 963542681, 13596249521, 32689465201);
